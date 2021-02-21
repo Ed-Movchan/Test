@@ -6,13 +6,15 @@ class ConversationList extends StatefulWidget {
   final String imageUrl;
   final String time;
   final bool withLabel;
+  final Widget labelContact;
 
   ConversationList(
       {@required this.name,
       @required this.messageText,
       @required this.imageUrl,
       @required this.time,
-      @required this.withLabel});
+      @required this.withLabel,
+      @required this.labelContact});
   @override
   _ConversationListState createState() => _ConversationListState();
 }
@@ -57,10 +59,7 @@ class _ConversationListState extends State<ConversationList> {
                                 color: Colors.grey.shade600,
                                 fontWeight: FontWeight.normal),
                           ),
-                          widget.withLabel
-                              ? labelContact(
-                                  'Challenge', Colors.red, Colors.white)
-                              : Container()
+                          widget.withLabel ? widget.labelContact : Container()
                         ],
                       ),
                     ),

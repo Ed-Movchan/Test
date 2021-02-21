@@ -40,7 +40,7 @@ class _ChatState extends State<Chat> {
       appBar: ChatAppBar(),
       body: _widgetOptions.elementAt(_selectedIndex),
       bottomNavigationBar: BottomNavigationBar(
-        selectedItemColor: Colors.purpleAccent,
+        selectedItemColor: Colors.purple,
         unselectedItemColor: Colors.grey.shade600,
         selectedLabelStyle: TextStyle(fontWeight: FontWeight.w600),
         unselectedLabelStyle: TextStyle(fontWeight: FontWeight.w600),
@@ -48,7 +48,7 @@ class _ChatState extends State<Chat> {
         items: [
           BottomNavigationBarItem(
             icon: Icon(Icons.message_outlined),
-            label: "Chats",
+            label: "Chat",
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.notifications_none),
