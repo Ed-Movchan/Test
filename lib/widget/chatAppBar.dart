@@ -26,10 +26,7 @@ class ChatAppBar extends StatelessWidget implements PreferredSizeWidget {
       actions: [
         Padding(
           padding: EdgeInsets.only(right: 20),
-          child: IconButton(
-            icon: Icon(Icons.message, size: 35.0),
-            onPressed: () => {},
-          ),
+          child: Icon(Icons.message, size: 35.0),
         ),
       ],
     );
