@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "441385519145",
+    "project_id": "fir-testchat-2a304",
+    "storage_bucket": "fir-testchat-2a304.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:441385519145:android:21f15365e884642ea07438",
+        "android_client_info": {
+          "package_name": "com.example.flutter_application_test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "441385519145-n6ddv2k2m0q0dqjq5q88nc55e5gdbf4v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBSkT9vN6GxMbWiLKEZVUH5kqz8_JW8B8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "441385519145-n6ddv2k2m0q0dqjq5q88nc55e5gdbf4v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

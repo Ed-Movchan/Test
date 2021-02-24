@@ -7,7 +7,7 @@ class ChatAppBar extends StatelessWidget implements PreferredSizeWidget {
   @override
   Widget build(BuildContext context) {
     return AppBar(
-      toolbarHeight: 100,
+      toolbarHeight: 120,
       leading: Container(
         padding: EdgeInsets.only(left: 20),
         height: 40,
